@@ -1,0 +1,40 @@
+{
+  "widget": {
+    "name": "widget.name",
+    "description": "widget.description",
+    "short_description": "widget.short_description",
+    "version": "1.0.3",
+    "interface_version": 2,
+    "init_once": true,
+    "locale": [
+      "ru",
+      "en"
+    ],
+    "installation": true,
+    "support": {
+      "link": "https://velespro.ru",
+      "email": "tech@velespro.ru"
+    }
+  },
+  "locations": [
+    "everywhere"
+  ],
+  "tour": {
+    "is_tour": true,
+    "tour_images": {
+      "ru": [
+        "/images/logo_main.png",
+        "/images/logo_main.png",
+        "/images/logo_main.png"
+      ]
+    },
+    "tour_description": "widget.tour_description"
+  },
+  "settings": {
+    "api_key": {
+      "name": "settings.api_key",
+      "type": "text",
+      "required": true
+    }
+  }
+}

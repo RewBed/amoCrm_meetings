@@ -1,0 +1,15 @@
+<div>
+    <h1 style="font-weight: bold;margin-bottom: 10px;" class="vl-meet-title">Создать встречу</h1>
+    <div class="vl-meet-list">
+        {% for user in usersList %}
+            <div class="vl-meet-list_item">
+                {{ user }}
+            </div>
+        {% endfor %}
+    </div>
+    <div style="margin: 10px 0;" class="vl-meet-date">
+        <!-- {{ dateField }} -->
+        <input type="datetime-local" id="vl-date" />
+    </div>
+    {{ btn }}
+</div>
